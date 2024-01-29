@@ -1,6 +1,6 @@
 from ._anvil_designer import SignupTemplate
 from anvil import *
-import anvil.users
+#import anvil.users
 import anvil.server
 import re
 

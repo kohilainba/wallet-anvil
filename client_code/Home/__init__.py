@@ -1,6 +1,6 @@
 from ._anvil_designer import HomeTemplate
 from anvil import *
-import anvil.users
+#import anvil.users
 import anvil.server
 
 class Home(HomeTemplate):

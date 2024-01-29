@@ -1,8 +1,8 @@
-import anvil.server
 import anvil.tables as tables
 import anvil.tables.query as q
 from anvil.tables import app_tables
 from datetime import datetime
+#import anvil.server
 import anvil.server
 from anvil import tables, app
 import random
