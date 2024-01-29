@@ -10,12 +10,6 @@ class Signup(SignupTemplate):
     self.init_components(**properties)
 
   def button_1_click(self, **event_args): 
-    # Check if the phone number already exists in the database
-        existing_user = anvil.server.call('get_user_by_phone', str(self.text_box_6.text).strip())
-
-        if existing_user:
-            alert('You have already signed up with this phone number.')
-        else:
           count=0
           if self.text_box_3.text != '':
             if self.text_box_3.text != self.text_box_7.text:
@@ -62,7 +56,7 @@ class Signup(SignupTemplate):
               self.text_box_3.text,
               self.text_box_4.text,
               self.text_box_5.text,
-              str(self.text_box_6.text).strip(),
+              self.text_box_6.text,
               self.text_box_8.text
             )
             alert (self.text_box_2.text + ' added')
