@@ -1,9 +1,12 @@
 unique_ids:
   forms:
     Home: '170651855682031941584232.395348'
+    Login: '1706532885212919747102330.8181'
+    Signup: '1706533286541782447590340.6085'
     customer: '1706520043917620562198090.202'
   modules: {}
-  server_modules: {}
+  server_modules:
+    ServerModule1: '1706535723169757935854527.826'
   assets:
     standard-page.html: LAH6NL3WEQPF2R4GH5ZEEG4SANXLEY75
     theme.css: U3B7VVRLQ6R6J6UQJ5YZTQK2RV5BUS57
