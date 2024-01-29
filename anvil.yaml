@@ -2,7 +2,7 @@ allow_embedding: false
 package_name: Wallet_Anvil
 db_schema:
   wallet_users:
-    client: none
+    client: full
     server: full
     columns:
     - name: username
