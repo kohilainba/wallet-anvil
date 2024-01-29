@@ -111,7 +111,7 @@ db_schema:
       admin_ui: {width: 200, order: 5}
       type: number
     title: wallet_users_transaction
-startup: {type: form, module: Home}
+startup: {type: form, module: Login}
 name: Wallet Anvil
 startup_form: null
 runtime_options:
